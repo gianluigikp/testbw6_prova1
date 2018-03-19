@@ -296,7 +296,7 @@
     <bpws:variables>
         <bpws:variable element="ns:ProcessContext"
             name="_processContext" sca-bpel:internal="true"/>
-        <bpws:variable element="ns0:TimerOutputSchema" name="Timer" sca-bpel:internal="true"/>
+        <bpws:variable element="ns0:TimerOutputSchema" name="Timer2" sca-bpel:internal="true"/>
     </bpws:variables>
     <bpws:extensions>
         <bpws:extension mustUnderstand="no" namespace="http://www.eclipse.org/gmf/runtime/1.0.2/notation"/>
@@ -311,9 +311,9 @@
             <bpws:links/>
             <bpws:extensionActivity>
                 <tibex:receiveEvent createInstance="yes"
-                    eventTimeout="60" name="Timer"
+                    eventTimeout="60" name="Timer2"
                     tibex:xpdlId="d4d7dbc6-5235-4562-ba31-b130a3151e07"
-                    variable="Timer" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    variable="Timer2" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <tibex:eventSource>
                         <bwext:BWActivity
                             activityTypeID="bw.generalactivities.timer"
