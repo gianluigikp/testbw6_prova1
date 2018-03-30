@@ -262,8 +262,8 @@
                                     <element href="//0/@process/@activity/@activity/@activities.0"/>
                                     <layoutConstraint
                                     height="40" width="40"
-                                    x="66"
-                                    xsi:type="notation:Bounds" y="122"/>
+                                    x="-16"
+                                    xsi:type="notation:Bounds" y="77"/>
                                     </children>
                                     <children type="4002">
                                     <children type="4017">
@@ -395,10 +395,10 @@
                                 <properties name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/generalactivities#//Timer"/>
                                     <value
-                                    endTime="2018-03-19T07:51:34.757-0700"
+                                    endTime="2018-03-19T15:51:34.757+0100"
                                     intervalUnit="Second"
                                     runOnce="true"
-                                    startTime="2018-03-19T07:51:34.757-0700"
+                                    startTime="2018-03-19T15:51:34.757+0100"
                                     timeInterval="1" xsi:type="generalactivities:Timer"/>
                                 </properties>
                             </activityConfig>
